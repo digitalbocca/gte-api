@@ -43,6 +43,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(80, function () {
-  console.log('Funcionando na porta 3000')
+  console.log('Funcionando na porta 80')
 })
 // app.listen(process.env.PORT)

@@ -1,6 +1,6 @@
 {
   "name": "gte-backend-node",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Um gerador de tags exclusivas para o seu canal no youtube.",
   "main": "index.js",
   "scripts": {
