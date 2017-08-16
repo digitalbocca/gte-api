@@ -1,6 +1,6 @@
 # GTE-API #
 ## Gerador de Tags Exclusivas - Backend NODE ##
-### v0.3.0 ###
+### v0.4.0 ###
 
 Um gerador de tags exclusivas para seu canal no youtube.
 
@@ -18,13 +18,21 @@ Tudo estará rodando em `<service>-<project>.wedeploy.io`.
 
 ## EXEMPLO ##
 
-
+https://api-gte.wedeploy.io
 
 ## APP QUE UTILIZA ESTA API ##
 
+https://app-gte.wedeploy.io
 
+https://gte.wedeploy.io
+
+https://gte-app.ga
 
 ## CHANGELOG ##
+
+**Notas da Versão v0.4.0**
+
+- Links adicionados no README.
 
 **Notas da Versão v0.3.0**
 
