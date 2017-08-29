@@ -1,10 +1,20 @@
 {
   "name": "gte-backend-node",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "Um gerador de tags exclusivas para o seu canal no youtube.",
   "main": "index.js",
+  "config": {
+    "commitMessage": "Automatização do Controle de Versão"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "git": "npm run gitstatus && npm run gitadd && npm run gitcommit && npm run gittag && npm run gitpushorigin && npm run gitpushbitbucket",
+    "gitstatus": "git status",
+    "gitadd": "git add .",
+    "gitcommit": "git commit -m \"%npm_package_config_commitMessage%\"",
+    "gittag": "git tag v%npm_package_version%",
+    "gitpushorigin" : "git push origin master --tags",
+    "gitpushbitbucket" : "git push bitbucket master --tags"
   },
   "keywords": [
     "gerador",
