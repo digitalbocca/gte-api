@@ -1,10 +1,16 @@
 'use strict'
 
 /**
- * @file Cria uma tag exclusiva.
+ * GTE - API
  *
- * @author Gabriel Bertola Bocca <gabriel@estudiodigitalbocca.com.br>
- * @copyright 2017 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br
+ * @file criador.js
+ * @namespace modules
+ * @description Cria uma tag exclusiva.
+ * @since 2017 - v0.1.0
+ * @version v1.1.0
+ *
+ * @copyright (c)2017 - Estúdio Digital Bocca - https://estudiodigitalbocca.com.br/
+ * @author Gabriel Bertola Bocca - gabriel at estudiodigitalbocca.com.br
  */
 
 const express = require('express')

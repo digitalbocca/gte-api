@@ -1,10 +1,10 @@
 {
   "name": "gte-backend-node",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Um gerador de tags exclusivas para o seu canal no youtube.",
   "main": "index.js",
   "config": {
-    "commitMessage": "Automatização do Controle de Versão"
+    "commitMessage": "Atualização de dependências"
   },
   "scripts": {
     "start": "node index.js",
@@ -13,8 +13,11 @@
     "gitadd": "git add .",
     "gitcommit": "git commit -m \"%npm_package_config_commitMessage%\"",
     "gittag": "git tag v%npm_package_version%",
-    "gitpushorigin" : "git push origin master --tags",
-    "gitpushbitbucket" : "git push bitbucket master --tags"
+    "gitpushorigin": "git push origin master --tags",
+    "gitpushbitbucket": "git push bitbucket master --tags"
+  },
+  "engines": {
+    "node": "8.7.0"
   },
   "keywords": [
     "gerador",
@@ -23,8 +26,8 @@
   "author": "Gabriel Bertola Bocca - gabriel@estudiodigitalbocca.com.br",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.15.4"
+    "express": "^4.16.2"
   }
 }
