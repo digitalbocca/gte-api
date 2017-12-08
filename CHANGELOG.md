@@ -1,6 +1,10 @@
 # GTE-API #
 ## Gerador de Tags Exclusivas - Backend NODE ##
-### v0.7.0 ###
+### v0.8.0 ###
+
+**Notas da Versão v0.8.0**
+
+- Movido para o Arquivo EDB.
 
 **Notas da Versão v0.7.0**
 
